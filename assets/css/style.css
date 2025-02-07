@@ -167,6 +167,24 @@ a:focus {
 	font-weight: bold;
 	line-height: 50px;
 }
+/* Increase dropdown size and margin */
+.dropdown ul {
+    margin: 12px 0; /* Adjust margin */  
+    min-width: 230px; /* Adjust width */
+    font-size: 16px; /* Increase text size */
+}
+
+/* Style dropdown links */
+.dropdown ul li a {
+    padding: 12px 15px; /* Increase padding for larger clickable area */
+    display: block;
+   
+}
+
+/* Optional: Add hover effect */
+.dropdown ul li a:hover {
+    background-color: #f4f4f4; /* Light background on hover */
+}
 
 /* thm btn */
 .thm-btn {
