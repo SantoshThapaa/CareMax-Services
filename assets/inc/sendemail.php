@@ -41,7 +41,6 @@ if (empty($name) || empty($senderEmail) || !filter_var($senderEmail, FILTER_VALI
     die(json_encode(["error" => "Invalid input. Please check the required fields."]));
 }
 
-// Email subject
 $mail_subject = 'Contact Request from ' . $name;
 
 // Construct email body
