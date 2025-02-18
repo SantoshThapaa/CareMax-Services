@@ -178,42 +178,44 @@
         <section class="contact-one">
             <div class="container">
                 <div class="block-title text-center">
-                    
                     <h3>Apply for CareMax<br> Services</h3>
                 </div><!-- /.block-title -->
-                <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
+                <form action="https://formsubmit.co/st708611@gmail.com" method="POST" class="contact-one__form contact-form-validated">
+                    <input type="hidden" name="_subject" value="New Application Submission">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+        
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="text" placeholder="Full Name" name="name">
+                            <input type="text" placeholder="Full Name" name="name" required>
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6">
-                            <input type="text" placeholder="Email Address" name="email">
+                            <input type="email" placeholder="Email Address" name="email" required>
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6">
-                            <input type="text" placeholder="Phone Number" name="phone">
+                            <input type="tel" placeholder="Phone Number" name="phone" required>
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-6">
-                            <select name="discussion" class="selectpicker">
-                                <option value="">Daily Assistance</option>
-                                <option value="">Community Participation</option>
-                                <option value="">Transport</option>
-                                <option value="">Household Tasks</option>
-                            </select><!-- /.selectpicker -->
+                            <select name="discussion" class="selectpicker" required>
+                                <option value="Daily Assistance">Daily Assistance</option>
+                                <option value="Community Participation">Community Participation</option>
+                                <option value="Transport">Transport</option>
+                                <option value="Household Tasks">Household Tasks</option>
                             </select><!-- /.selectpicker -->
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-12">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message" required></textarea>
                         </div><!-- /.col-md-12 -->
                         <div class="col-md-12 text-center">
                             <button type="submit" class="thm-btn contact-one__btn">Submit Now</button>
-                            <!-- /.thm-btn contact-one__btn -->
                         </div><!-- /.col-md-12 -->
                     </div><!-- /.row -->
                 </form>
                 <div class="result"></div><!-- /.result -->
             </div><!-- /.container -->
         </section><!-- /.contact-one -->
-       
+ 
+        
             <footer class="site-footer">
                 <div class="site-footer__upper">
                     
