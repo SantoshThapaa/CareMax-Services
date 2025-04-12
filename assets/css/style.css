@@ -1328,16 +1328,10 @@ a:focus {
 }
 
 .main-nav-one__inner-page .main-nav-one__logo {
-	background-color: var(--thm-base);
-	width: 205px;
-	height: 198px;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: absolute;
-	bottom: -22px;
-	left: 15px;
-	z-index: 10;
 }
 
 .main-nav-one__inner-page .main-nav-one__logo::before {
@@ -1347,9 +1341,9 @@ a:focus {
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background-image: url(../images/svgs/logo-curv-1-1.svg);
-	background-repeat: no-repeat;
-	background-position: center bottom;
+	/* background-image: url(../images/svgs/logo-curv-1-1.svg); */
+	/* background-repeat: no-repeat;
+	background-position: center bottom; */
 }
 
 .main-nav-one__inner-page.stricked-menu .main-nav-one__logo {
@@ -6749,6 +6743,8 @@ a:focus {
 }
 
 .service-one__image>img {
+	object-fit: cover;
+	object-position: center;
 	width: 100%;
 	transform: scale(1.0);
 	opacity: 1;
@@ -7978,4 +7974,8 @@ a:focus {
 	color: #93959e;
 	font-size: 16px;
 	line-height: 30px;
+}
+
+.form-group{
+	padding-left:3vw;
 }

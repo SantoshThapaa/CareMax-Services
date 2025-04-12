@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'oberlin-icon';
-  src:  url('../fonts/oberlin-icon.eot?bgr91h');
-  src:  url('../fonts/oberlin-icon.eot?bgr91h#iefix') format('embedded-opentype'),
-    url('../fonts/oberlin-icon.ttf?bgr91h') format('truetype'),
-    url('../fonts/oberlin-icon.woff?bgr91h') format('woff'),
-    url('../fonts/oberlin-icon.svg?bgr91h#oberlin-icon') format('svg');
+  font-family: "Oberlin-icon";
+  src: url("../fonts/Oberlin-icon.eot?bgr91h");
+  src: url("../fonts/Oberlin-icon.eot?bgr91h#iefix") format("embedded-opentype"),
+    url("../fonts/Oberlin-icon.ttf?bgr91h") format("truetype"),
+    url("../fonts/Oberlin-icon.woff?bgr91h") format("woff"),
+    url("../fonts/Oberlin-icon.svg?bgr91h#Oberlin-icon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="oberlin-icon-"], [class*=" oberlin-icon-"] {
+[class^="Oberlin-icon-"],
+[class*=" Oberlin-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'oberlin-icon' !important;
+  font-family: "Oberlin-icon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,51 +26,51 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.oberlin-icon-stethoscope:before {
+.Oberlin-icon-stethoscope:before {
   content: "\e900";
 }
-.oberlin-icon-old:before {
+.Oberlin-icon-old:before {
   content: "\e901";
 }
-.oberlin-icon-blind:before {
+.Oberlin-icon-blind:before {
   content: "\e902";
 }
-.oberlin-icon-left-quotes-sign:before {
+.Oberlin-icon-left-quotes-sign:before {
   content: "\e903";
 }
-.oberlin-icon-exercise:before {
+.Oberlin-icon-exercise:before {
   content: "\e904";
 }
-.oberlin-icon-disability:before {
+.Oberlin-icon-disability:before {
   content: "\e905";
 }
-.oberlin-icon-brain:before {
+.Oberlin-icon-brain:before {
   content: "\e906";
 }
-.oberlin-icon-whatsapp:before {
+.Oberlin-icon-whatsapp:before {
   content: "\e907";
 }
-.oberlin-icon-map:before {
+.Oberlin-icon-map:before {
   content: "\e908";
 }
-.oberlin-icon-goal:before {
+.Oberlin-icon-goal:before {
   content: "\e909";
 }
-.oberlin-icon-discussion:before {
+.Oberlin-icon-discussion:before {
   content: "\e90a";
 }
-.oberlin-icon-doctor:before {
+.Oberlin-icon-doctor:before {
   content: "\e90b";
 }
-.oberlin-icon-first-aid:before {
+.Oberlin-icon-first-aid:before {
   content: "\e90c";
 }
-.oberlin-icon-email:before {
+.Oberlin-icon-email:before {
   content: "\e90d";
 }
-.oberlin-icon-marker:before {
+.Oberlin-icon-marker:before {
   content: "\e90e";
 }
-.oberlin-icon-phone:before {
+.Oberlin-icon-phone:before {
   content: "\e90f";
 }
